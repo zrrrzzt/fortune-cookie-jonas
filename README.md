@@ -1,5 +1,7 @@
 # fortune-cookie-jonas
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/fortune-cookie-jonas.svg)](https://greenkeeper.io/)
+
 Birthday gift for the one and only @Maccyber
 
 ```sh
