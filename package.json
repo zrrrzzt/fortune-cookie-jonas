@@ -19,7 +19,7 @@
   "dependencies": {
     "fortune-cookie": "0.0.1",
     "knuth-shuffle": "1.0.8",
-    "next": "6.1.2",
+    "next": "7.0.0",
     "react": "16.5.2",
     "react-dom": "16.5.2"
   },
