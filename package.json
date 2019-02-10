@@ -34,5 +34,8 @@
     "name": "maccyber-fortune",
     "alias": "maccyber.allthethings.win",
     "type": "static"
+  },
+  "engines": {
+    "node": ">= 10.15.1"
   }
 }
