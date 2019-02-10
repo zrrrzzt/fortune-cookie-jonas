@@ -12,7 +12,8 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "now out --static -n maccyber-fortune && now alias",
+    "now-build": "next build && next export",
+    "deploy": "npm test && now && now alias",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
@@ -30,11 +31,6 @@
     "coveralls": "3.0.2",
     "nyc": "13.2.0",
     "standard": "12.0.1"
-  },
-  "now": {
-    "name": "maccyber-fortune",
-    "alias": "maccyber.allthethings.win",
-    "type": "static"
   },
   "engines": {
     "node": ">= 10.15.1"
