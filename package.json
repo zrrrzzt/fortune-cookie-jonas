@@ -1,6 +1,6 @@
 {
   "name": "fortune-coookie-jonas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Maccyber will tell your fortune",
   "main": "index.js",
   "scripts": {
