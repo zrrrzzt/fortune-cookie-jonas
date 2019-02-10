@@ -18,7 +18,7 @@ const Index = class extends React.Component {
 
   tellFortune () {
     const cookie = getCookie()
-    this.setState({fortune: cookie})
+    this.setState({ fortune: cookie })
   }
 
   render () {
