@@ -4,10 +4,13 @@
   "alias": [
     "maccyber.allthethings.win"
   ],
-  "builds": [
-    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "out" }}
-  ],
   "env": {
     "NODE_ENV": "production"
-  }
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ]
 }

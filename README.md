@@ -6,6 +6,12 @@ Birthday gift for the one and only @Maccyber
 $ npm start
 ```
 
+## Development
+
+```
+$ npm run dev
+```
+
 ## Build
 
 ```sh
