@@ -25,7 +25,7 @@ const Index = class extends React.Component {
     return (
       <div className={'wrapper'}>
         <h1>The wisdom of Maccyber</h1>
-        <img src={'/static/maccyber.png'} />
+        <img src={'/maccyber.png'} />
         <div className='fortune-box'>
           {this.state.fortune}
         </div>
