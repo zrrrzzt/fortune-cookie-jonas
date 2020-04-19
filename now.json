@@ -1,16 +1,4 @@
 {
   "version": 2,
-  "name": "maccyber-fortune",
-  "alias": [
-    "maccyber.allthethings.win"
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/next"
-    }
-  ]
+  "scope": "zrrrzzt"
 }

@@ -15,11 +15,11 @@ const Index = () => {
   }
 
   return (
-    <div className={'wrapper'}>
+    <div className='wrapper'>
       <h1>The wisdom of Maccyber</h1>
-      <img src={'/maccyber.png'} />
+      <img src='/maccyber.png' />
       <div className='fortune-box'>
-        { fortune }
+        {fortune}
       </div>
       <p>
         <button onClick={tellFortune}>Give me more wisdom</button>
